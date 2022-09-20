@@ -28,10 +28,25 @@
   color: #61dafb;
 }
 
+.countries {
+  background-color: antiquewhite;
+  border: 2px solid blue;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.country {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
